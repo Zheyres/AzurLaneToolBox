@@ -1,61 +1,47 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
+<html lang="en">
 <meta name="description" content="Guide for new player of Azur Lane">
 <meta name="keywords" content="Tips,Videos,references">
 <meta name="author" content="KMS Ulrich von Hutten">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-<title>Azur Lane Toolbox</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
-<style>
-    body {
+    <head>
+        <title>Azur Lane Toolbox</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
+        <!-- This line links an external stylesheet file to the HTML document which controls all the styling exept for the background image-->
+        <link rel="stylesheet" href="Scripts/StyleSheetAzurLaneToolBox.css">
+        <link rel="icon" type="image/png" href="Assets/Azur_Lane_Logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="Scripts/backGroundMusic.js"></script>
+       <div class="logo-container">
+             <img src="Assets/Azur_Lane_Logo.png" alt="Azur Lane Logo" class="logo">
+        </div>
+      
+    </head>
+    <body>
+        <style>
+            body {
         background-image: url('Assets/backgroundImage.jpg');
         background-size: fill;
         background-repeat: repeat;
         background-blend-mode: darken;
-    }
-    .welcome {
-        padding-top: 50px;
-        padding-left: 3%;
-        padding-bottom: 20px;
-        color: rgb(0, 43, 185);
-        font-weight:bold;
-        font-size: 6vh;
-        text-align: center;
-        font-style: italic;
-    }
-    .music-controller {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            
+        
         }
-        .play-btn {
-            min-width: 7vw;
-            min-height: 2.5vh;
-            line-height: 3vh;
-            font-size: 2vh;
-            
-}
-        .content {
-            font-size: 3vh;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-weight: bolder;
-            color: white;
-            padding-left: 2%;
-        }
-       </style>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="Scripts/backGroundMusic.js"></script>
-</head>
-    
-<body>
-    <h1 class="welcome"> Welcome to Azur lane toolbox!</h1> 
-    <div class="music-controller">
-        <button class="play-btn">Pause</button>
-    </div>
-    <p class="content" > Table of content  </p>
-       </body>
-</html>
+        </style>
+        <h1 class="welcome"> Commander, welcome to the Azur Lane Toolbox!</h1>
+        <h2 class="welcome2">  Here you can find tips, <br> Links and guides for the game.</h2> 
+        <div class="music-controller">
+             <button class="play-btn">Pause</button>
+        </div>
+        <div class="content-column">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/AzurLaneToolBoxWeb.html">Main</a></li>
+                <li><a href="NewPlayers.html">New players guides</a></li>
+                <li><a href="MidGame.html">Mid game Guides</a></li>
+                <li><a href="EndGame.html">End game Guides</a></li>
+            </ul>
+          </div>
+    </body> 
+</html> 

@@ -19,13 +19,6 @@ $(document).ready(function() {
         }
     });
 });
-
-// Event listener for the volume slider
-$('.volume-slider').on('input', function() {
-    // Update the volume of the audio element
-    audio.volume = $(this).val() / 100;
-});
-
 // Play the audio when the page loads
 $(document).ready(function() {
     audio.play();

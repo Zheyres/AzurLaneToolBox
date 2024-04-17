@@ -1,0 +1,77 @@
+
+    .welcome {
+        padding-top: 50px;
+        padding-left: 3%;
+        padding-bottom: 20px;
+        color: rgb(0, 43, 185);
+        font-weight:bold;
+        font-size: 5vh;
+        text-align: center;
+        font-style: italic;
+        background-color: rgba(255, 255, 255, 0.7); /* Background color with opacity */
+        }
+    .welcome2 {
+        padding-top: 45px;
+        padding-left: 2%;
+        padding-bottom: 20px;
+        color: rgb(38, 68, 160);
+        font-weight:bold;
+        font-size: 4.5vh;
+        text-align: center;
+        font-style: italic;
+        background-color: rgba(255, 255, 255, 0.6); /* Background color with opacity */
+        }
+    .music-controller {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            
+        }
+    .play-btn {
+            min-width: 7vw;
+            min-height: 2.5vh;
+            line-height: 3vh;
+            font-size: 2vh;
+            
+        }
+    .logo-container {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+
+    .logo {
+            width: 200px; /* Adjust the width as per your requirement */
+            height: auto; /* Maintain aspect ratio */
+        }
+    .content-column {
+        position: fixed;
+        top: 400px; /* Adjust the top position as needed */
+        bottom: 0;
+        left: 1px;
+        width: 300px; /* Adjust the width as needed */
+        background-color: rgba(255, 255, 255, 0.6); /* Background color with opacity */
+        padding: 20px;
+        overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+        color: rgb(38, 68, 160);
+        font-size: 2.5vh;
+        font-style: italic;
+        font-weight: bold;
+      }
+      a {
+        color: #0819b6; /* Change the color to your desired color value */
+        text-decoration: none; /* Optional: Remove underline from the links */
+      }
+      
+      a:hover {
+        color: #ff7300; /* Change the color when the link is hovered over */
+      }
+      h3 {
+        font-size: 3vh;
+        font-weight: bolder;
+        text-align: center;
+        font-style: italic, sans-serif;
+        border-bottom: 5px dashed #0819b6;  
+      }
