@@ -12,12 +12,13 @@
         <!-- This line links an external stylesheet file to the HTML document which controls all the styling exept for the background image-->
         <link rel="stylesheet" href="Scripts/StyleSheetAzurLaneToolBox.css">
         <link rel="icon" type="image/png" href="Assets/Azur_Lane_Logo.png">
+        <link rel="Amazon" type="image/png" href="Assets/Amazon.png">
+        <link rel="Repair-toolkit" type="image/png" href="Assets/repiar-toolkit.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="Scripts/backGroundMusic.js"></script>
-       <div class="logo-container">
-             <img src="Assets/Azur_Lane_Logo.png" alt="Azur Lane Logo" class="logo">
-        </div>
-      
+        <div class="logo-container"><img src="Assets/Azur_Lane_Logo.png" alt="Azur Lane Logo" class="logo"></div>
+        <!-- <script src="Scripts/MainText.js"></script> DISABLED-->
+        <link rel="stylesheet" href="Scripts/text-stylesheet.css">
     </head>
     <body>
         <style>
@@ -26,7 +27,7 @@
         background-size: fill;
         background-repeat: repeat;
         background-blend-mode: darken;
-        
+        cursor: url('Assets/Amazon-cursor.png'), auto;
         }
         </style>
         <h1 class="welcome"> Commander, welcome to the Azur Lane Toolbox!</h1>
@@ -35,7 +36,7 @@
              <button class="play-btn">Pause</button>
         </div>
         <div class="content-column">
-            <h3>Table of Contents</h3>
+            <h3 style="font-size: larger;">Table of Contents</h3>
             <ul>
                 <li><a href="http://127.0.0.1:5500/AzurLaneToolBoxWeb.html">Main</a></li>
                 <li><a href="NewPlayers.html">New players guides</a></li>
@@ -43,5 +44,16 @@
                 <li><a href="EndGame.html">End game Guides</a></li>
             </ul>
           </div>
+          <!-- main text of the page* -->
+          <div class="main-text">
+            <p>Welcome to Azur Lane ToolBox, your go-to resource for navigating the depths of Azur Lane with ease! Our mission is simple: to equip commanders like you with the tools and knowledge needed to sail smoothly through the game's challenges, leaving more time to enjoy the captivating content and adorable waifus.</p>
+            <p>But we're not just a static website—we're a community-driven initiative. Our doors are open wide to all who share a genuine passion for Azur Lane. Whether you're eager to contribute content, update guides, or simply share your insights, your input is not only welcomed but encouraged.</p>
+            <p>In the spirit of collaboration, Azur Lane ToolBox is also open source on GitHub. This means that anyone with a love for the game and a desire to improve the player experience is invited to join us on this voyage. Together, we'll continue to expand and enhance this toolbox, ensuring that every commander has the resources they need to thrive in Azur Lane.</p>
+            <p>So, whether you're setting sail for the first time or charting a course to mastery, remember: Azur Lane ToolBox is here to support you every step of the way. Fair winds and following seas, commanders!</p>
+            <p>As the curator of this site, I've been immersed in the world of Azur Lane since 2021, sailing as Ulrich von Hutten. As a free-to-play player who has amassed over 80% of the characters and conquered all available content, I understand the challenges and triumphs of every commander. Rest assured, the content you find here is meticulously vetted and approved by someone deeply invested in the game's community.</p>
+            <p>Expect concise tips, informative YouTube guides, and convenient links to the official wiki—all carefully selected to streamline your gaming experience. Let's embark on this journey together, where every question finds its answer, and every commander charts a course to victory. Welcome aboard!</p>
+          </div>
+          <div class="Amazon-container"><img src="Assets/Amazon.png" alt="Amazon sticker" class="Amazon"></div>
+          <div class="RepairKit-container"><img src="Assets/repiar-toolkit.png" alt="toolkit sticker" class="toolbox"></div>
     </body> 
 </html> 

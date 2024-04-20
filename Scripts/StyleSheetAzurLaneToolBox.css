@@ -23,7 +23,7 @@
         }
     .music-controller {
             position: fixed;
-            top: 20px;
+            top: 60px;
             right: 20px;
             z-index: 1000;
             
@@ -43,7 +43,7 @@
         }
 
     .logo {
-            width: 200px; /* Adjust the width as per your requirement */
+            width: 250px; /* Adjust the width as per your requirement */
             height: auto; /* Maintain aspect ratio */
         }
     .content-column {
@@ -68,6 +68,7 @@
       a:hover {
         color: #ff7300; /* Change the color when the link is hovered over */
       }
+      
       h3 {
         font-size: 3vh;
         font-weight: bolder;
@@ -75,3 +76,25 @@
         font-style: italic, sans-serif;
         border-bottom: 5px dashed #0819b6;  
       }
+      
+      .Amazon-container {
+        position: fixed;
+        top: 160px;
+        left: 30px;
+        z-index: 1000;
+    }
+      .Amazon {
+        width: 170px; /* Adjust the width as per your requirement */
+        height: auto; /* Maintain aspect ratio */
+        transform: scaleX(-1); /* Flip the image horizontally */
+    }
+    .RepairKit-container {
+      position: fixed;
+      top: 140px;
+      right: 70px;
+      z-index: 1000;
+  }
+    .Repair-toolkit {
+      width: 10px; /* Adjust the width as per your requirement */
+      height: auto; /* Maintain aspect ratio */
+  }
