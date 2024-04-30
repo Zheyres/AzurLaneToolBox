@@ -43,7 +43,7 @@
         }
 
     .logo {
-            width: 250px; /* Adjust the width as per your requirement */
+            width: 180px; /* Adjust the width as per your requirement */
             height: auto; /* Maintain aspect ratio */
         }
     .content-column {
@@ -84,7 +84,7 @@
         z-index: 1000;
     }
       .Amazon {
-        width: 170px; /* Adjust the width as per your requirement */
+        width: 130px; /* Adjust the width as per your requirement */
         height: auto; /* Maintain aspect ratio */
         transform: scaleX(-1); /* Flip the image horizontally */
     }
