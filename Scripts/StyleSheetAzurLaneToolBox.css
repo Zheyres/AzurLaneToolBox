@@ -60,12 +60,12 @@
         font-style: italic;
         font-weight: bold;
       }
-      a {
+       .sections{
         color: #0819b6; /* Change the color to your desired color value */
         text-decoration: none; /* Optional: Remove underline from the links */
       }
       
-      a:hover {
+      .sections:hover {
         color: #ff7300; /* Change the color when the link is hovered over */
       }
       
@@ -94,7 +94,11 @@
       right: 70px;
       z-index: 1000;
   }
-    .Repair-toolkit {
-      width: 10px; /* Adjust the width as per your requirement */
-      height: auto; /* Maintain aspect ratio */
+  .Repairtoolkit{
+    width: 100px;
+    height: auto;
   }
+    .wiki-link {
+      color: #0819b6; 
+      font-size: 3vh;  
+    }
