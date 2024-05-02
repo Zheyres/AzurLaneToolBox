@@ -36,7 +36,7 @@
             
         }
     .logo-container {
-            position: fixed;
+            position: inherit;
             top: 20px;
             left: 20px;
             z-index: 1000;
@@ -78,9 +78,9 @@
       }
       
       .Amazon-container {
-        position: fixed;
-        top: 160px;
-        left: 30px;
+        position: absolute;
+        top: 220px;
+        left: 0px;
         z-index: 1000;
     }
       .Amazon {
@@ -89,13 +89,13 @@
         transform: scaleX(-1); /* Flip the image horizontally */
     }
     .RepairKit-container {
-      position: fixed;
+      position: absolute;
       top: 140px;
       right: 70px;
       z-index: 1000;
   }
   .Repairtoolkit{
-    width: 100px;
+    width: min-content;
     height: auto;
   }
     .wiki-link {
