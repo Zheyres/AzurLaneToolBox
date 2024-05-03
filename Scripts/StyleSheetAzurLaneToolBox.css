@@ -1,104 +1,233 @@
 
-    .welcome {
-        padding-top: 50px;
-        padding-left: 3%;
-        padding-bottom: 20px;
-        color: rgb(0, 43, 185);
-        font-weight:bold;
-        font-size: 5vh;
-        text-align: center;
-        font-style: italic;
-        background-color: rgba(255, 255, 255, 0.7); /* Background color with opacity */
-        }
-    .welcome2 {
-        padding-top: 45px;
-        padding-left: 2%;
-        padding-bottom: 20px;
-        color: rgb(38, 68, 160);
-        font-weight:bold;
-        font-size: 4.5vh;
-        text-align: center;
-        font-style: italic;
-        background-color: rgba(255, 255, 255, 0.6); /* Background color with opacity */
-        }
-    .music-controller {
-            position: fixed;
-            top: 60px;
-            right: 20px;
-            z-index: 1000;
-            
-        }
-    .play-btn {
-            min-width: 7vw;
-            min-height: 2.5vh;
-            line-height: 3vh;
-            font-size: 2vh;
-            
-        }
-    .logo-container {
-            position: inherit;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-        }
+@media screen and (orientation: landscape) {
+  .welcome {
+      padding-top: 5%;
+      padding-left: 3%;
+      padding-bottom: 2%;
+      color: rgb(0, 43, 185);
+      font-weight: bold;
+      font-size: 5vh;
+      text-align: center;
+      font-style: italic;
+      background-color: rgba(255, 255, 255, 0.7);
+  }
 
-    .logo {
-            width: 180px; /* Adjust the width as per your requirement */
-            height: auto; /* Maintain aspect ratio */
-        }
-    .content-column {
-        position: fixed;
-        top: 400px; /* Adjust the top position as needed */
-        bottom: 0;
-        left: 1px;
-        width: 300px; /* Adjust the width as needed */
-        background-color: rgba(255, 255, 255, 0.6); /* Background color with opacity */
-        padding: 20px;
-        overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
-        color: rgb(38, 68, 160);
-        font-size: 2.5vh;
-        font-style: italic;
-        font-weight: bold;
-      }
-       .sections{
-        color: #0819b6; /* Change the color to your desired color value */
-        text-decoration: none; /* Optional: Remove underline from the links */
-      }
-      
-      .sections:hover {
-        color: #ff7300; /* Change the color when the link is hovered over */
-      }
-      
-      h3 {
-        font-size: 3vh;
-        font-weight: bolder;
-        text-align: center;
-        font-style: italic, sans-serif;
-        border-bottom: 5px dashed #0819b6;  
-      }
-      
-      .Amazon-container {
-        position: absolute;
-        top: 220px;
-        left: 0px;
-        z-index: 1000;
-    }
-      .Amazon {
-        width: 130px; /* Adjust the width as per your requirement */
-        height: auto; /* Maintain aspect ratio */
-        transform: scaleX(-1); /* Flip the image horizontally */
-    }
-    .RepairKit-container {
-      position: absolute;
-      top: 140px;
-      right: 70px;
+  .welcome2 {
+      padding-top: 4.5%;
+      padding-left: 2%;
+      padding-bottom: 2%;
+      color: rgb(38, 68, 160);
+      font-weight: bold;
+      font-size: 4.5vh;
+      text-align: center;
+      font-style: italic;
+      background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .music-controller {
+      position: fixed;
+      top: 6%;
+      right: 2%;
       z-index: 1000;
   }
-  .Repairtoolkit{
-    width: min-content;
-    height: auto;
+
+  .play-btn {
+      min-width: 10%;
+      min-height: 2.5vh;
+      line-height: 3vh;
+      font-size: 2vh;
   }
-    .wiki-link {
-      color: #0819b6; 
-      font-size: 3vh;  
-    }
+
+  .logo-container {
+      position: inherit;
+      top: 2%;
+      left: 2%;
+      z-index: 1000;
+  }
+
+  .logo {
+      width: 18%; /* Adjust the width as per your requirement */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .content-column {
+      position: absolute; 
+      top: 90%; /* Adjust the top position as needed */
+      bottom: 0;
+      left: .1%; 
+      width: 20%; /* Adjust the width as needed */
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 2%;
+      overflow-y: auto;
+      color: rgb(38, 68, 160);
+      font-size: 2.5vh;
+      font-style: italic;
+      font-weight: bold;
+      max-height: max-content;
+      max-width: 18%;
+  }
+
+  .sections {
+      color: #0819b6;
+      text-decoration: none;
+  }
+
+  .sections:hover {
+      color: #ff7300;
+  }
+
+  h3 {
+      font-size: 3vh;
+      font-weight: bolder;
+      text-align: center;
+      font-style: italic, sans-serif;
+      border-bottom: 5px dashed #0819b6;
+  }
+
+  .Amazon-container {
+      position: absolute;
+      top: 42%;
+      left: 3%;
+      z-index: 1000;
+  }
+
+  .Amazon {
+      width: 23%; /* Adjust the width as per your requirement */
+      height: auto;
+      transform: scaleX(-1);
+  }
+
+  .RepairKit-container {
+      position: absolute;
+      top: 17%;
+      right: 5%;
+      z-index: 1000;
+  }
+
+  .Repairtoolkit {
+      width: 50%;
+      height: 50%;
+  }
+
+  .wiki-link {
+      color: #0819b6;
+      font-size: 3vh;
+  }
+}
+@media screen and (orientation: portrait) {
+  
+  .welcome {
+      padding-top: 4%;
+      padding-left: 3%;
+      padding-bottom: 2%;
+      color: rgb(0, 43, 185);
+      font-weight: bold;
+      font-size: 4vh;
+      text-align: center;
+      font-style: italic;
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 140%;
+  }
+  .welcome2 {
+      padding-top: 4.5%;
+      padding-left: 2%;
+      padding-bottom: 2%;
+      color: rgb(38, 68, 160);
+      font-weight: bold;
+      font-size: 3.5vh;
+      text-align: center;
+      font-style: italic;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 140%;
+  }
+  
+  .music-controller {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+      z-index: 1000;
+  }
+  
+  .play-btn {
+      min-width: 7%;
+      min-height: 2.5vh;
+      line-height: 3vh;
+      font-size: 2vh;
+  }
+  
+  .logo-container {
+      position: inherit;
+      top: 2%;
+      left: 2%;
+      z-index: 1000;
+  }
+  
+  .logo {
+      width: 18%; /* Adjust the width as per your requirement */
+      height: auto; /* Maintain aspect ratio */
+  }
+  
+  .content-column {
+      position: absolute;
+      top: 40%; /* Adjust the top position as needed */
+      bottom: 0;
+      left: 1px; 
+      width: 30%; /* Adjust the width as needed */
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 2%;
+      overflow-y: auto;
+      color: rgb(38, 68, 160);
+      font-size: 1.5vh;
+      font-style: italic;
+      font-weight: bold;
+      max-width: fit-content;
+      max-height: fit-content;
+  }
+  
+  .sections {
+      color: #0819b6;
+      text-decoration: none;
+  }
+  
+  .sections:hover {
+      color: #ff7300;
+  }
+  
+  h3 {
+      font-size: 2vh;
+      font-weight: bolder;
+      text-align: center;
+      font-style: italic, sans-serif;
+      border-bottom: 5px dashed #0819b6;
+  }
+  
+  .Amazon-container {
+      position: absolute;
+      top: 22%;
+      left: 0;
+      z-index: 1000;
+  }
+  
+  .Amazon {
+      width: 13%; /* Adjust the width as per your requirement */
+      height: auto;
+      transform: scaleX(-1);
+  }
+  
+  .RepairKit-container {
+      position: left; /*done to hide on mobile*/
+      top: 14%;
+      right: 7%;
+      z-index: 1000;
+  }
+  
+  .Repairtoolkit {
+      width: 100px;
+      height: auto;
+  }
+  
+  .wiki-link {
+      color: #0819b6;
+      font-size: 1.5vh;
+  }
+}

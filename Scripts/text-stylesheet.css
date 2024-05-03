@@ -1,19 +1,38 @@
-
-.main-text {
+@media screen and (orientation: landscape) {
+    .main-text {
     
-    top: 430px; /* Adjust the top position as needed */
-    bottom: 0;
-    left: 550px;
-    width: auto; /* Adjust the width as needed */
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.7); /* Background color with opacity */
-    padding: 30px;
-    overflow-y:auto; /* Enable vertical scrolling if content exceeds the height */
-    color: rgb(38, 68, 160);
-    font-size: 2.7vh;
-    font-style: italic;
-    font-weight: bold;
-    max-width: 80%;
-    max-height: auto;
-    margin: 50px 0px 0px 350px;
+        top: 43%; /* Adjust the top position as needed */
+        width: auto; /* Adjust the width as needed */
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.7); /* Background color with opacity */
+        padding: 3%;
+        overflow-y:auto; /* Enable vertical scrolling if content exceeds the height */
+        color: rgb(38, 68, 160);
+        font-size: 2.7vh;
+        font-style: italic;
+        font-weight: bold;
+        max-width: 75%;
+        max-height: auto;
+        margin: 5% 0px 0px 20%;
+        text-align: justify;
+    }
+}
+@media screen and (orientation: portrait) {
+    .main-text {
+    
+        top: 43%; /* Adjust the top position as needed */   
+        width: 100%; /* Adjust the width as needed */
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.7); /* Background color with opacity */
+        padding: 1%;
+        overflow-y:auto; /* Enable vertical scrolling if content exceeds the height */
+        color: rgb(38, 68, 160);
+        font-size: 1.8vh;
+        font-style: italic;
+        font-weight: bold;
+        max-width: 100%;
+        margin: 5% 0px 0px 34%;
+        text-align: justify;
+    }
+    
 }
