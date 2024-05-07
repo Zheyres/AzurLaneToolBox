@@ -1,6 +1,6 @@
-Azur Lane ToolBox is a website where players of the games. will find tips, 
-links, and references to information that I think are useful and correct/valid to the current game state,
-to help them ease their dubs and progress with the game smoothly without having to search all over the web and lose time or get frustrated.
+Azur Lane ToolBox is a website focused on helping all kinds of players of Azur Lane. 
+We offer tips, links to guide videos and wiki, and other references to information, that I think is useful and valid to the current state of the game.
+We wish to help players ease their dubts and progress with the game smoothly, without having to search all over the web and lose time or get frustrated.
 it will be divided into three sections.
 *new player
 *mid-game
