@@ -1,0 +1,2 @@
+# Add the JSONC file to the .gitignore
+.vscode/settings.jsonc
